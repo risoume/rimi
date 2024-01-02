@@ -7,6 +7,12 @@ if util == "counter"
     Counter.countdown
   elsif option == "-a"
     Counter.add_task
+  elsif option == "-s"
+    Counter.show_all
+  elsif option == "-e"
+    Counter.edit
+  elsif option == "-d"
+    Counter.delete
   end
 end
 
